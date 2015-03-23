@@ -1,0 +1,52 @@
+body
+{
+color:black;
+font-family:Comic Sans MS;
+background-color:lavender;
+}
+
+#bigbox
+{
+background-color:purple;
+width:960px;
+height:600px;
+/* margin 0 auto - center of the background*/
+margin:0 auto;
+}
+
+#header
+{
+font-family:Comic Sans MS;
+background-color:deepskyblue;
+width:100%;
+height:15%;
+opacity:.5;
+}
+
+#sidebar
+{
+background-color:deeppink;
+float:left;
+width:15%;
+height:85%;
+}
+
+#main
+{
+/*source rights: */
+background-image:url("talitabackground.jpg");
+/*if you want to repeat the image in the box*/
+background-repeat: no-repeat;
+/*to be the same size as the box you have to set contain*/
+background-size:contain;
+float:right;
+width:85%;
+height:85%;
+}
+
+/*Pseudo class - used to add effects to the links*/
+/*Must to be written in this order*/
+a:link{color:white;text-decoration:none;}
+a:visited{color:white;text-decoration:none;}
+a:hover{color:white;text-decoration:none;}
+a:active{color:orange;text-decoration:underline;}
